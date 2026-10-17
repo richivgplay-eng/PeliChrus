@@ -1,0 +1,12 @@
+{
+  "name": "pelichrus-backend",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node --env-file=server/.env server/server.mjs",
+    "test": "node --test server/server.test.mjs"
+  },
+  "engines": {
+    "node": ">=20.6"
+  }
+}
